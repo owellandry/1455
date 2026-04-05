@@ -1,0 +1,17 @@
+import * as React from "react";
+import { jsx as _jsx } from "react/jsx-runtime";
+const SvgSlash = (props) => /* @__PURE__ */ _jsx("svg", {
+	width: 20,
+	height: 20,
+	viewBox: "0 0 20 20",
+	fill: "none",
+	xmlns: "http://www.w3.org/2000/svg",
+	...props,
+	children: /* @__PURE__ */ _jsx("path", {
+		d: "M13.3333 4.16663L6.66663 15.8333",
+		stroke: "currentColor",
+		strokeWidth: 1.33,
+		strokeLinecap: "round"
+	})
+});
+export default SvgSlash;

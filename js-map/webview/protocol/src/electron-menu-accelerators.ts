@@ -1,0 +1,40 @@
+export const electronMenuAccelerators = {
+  openCommandMenu: "CmdOrCtrl+Shift+P",
+  openCommandMenuAlt: "CmdOrCtrl+K",
+  newWindow: "CmdOrCtrl+Shift+N",
+  findInThread: "CmdOrCtrl+F",
+  settings: "CmdOrCtrl+,",
+  // Alt shortcut mirrors ChatGPT web while keeping labels on Cmd/Ctrl+N.
+  newThread: "CmdOrCtrl+N",
+  newThreadAlt: "CmdOrCtrl+Shift+O",
+  openFolder: "CmdOrCtrl+O",
+  copyConversationPath: "CmdOrCtrl+Alt+Shift+C",
+  toggleThreadPin: "CmdOrCtrl+Alt+P",
+  renameThread: "Command+Control+R",
+  archiveThread: "CmdOrCtrl+Shift+A",
+  copyWorkingDirectory: "CmdOrCtrl+Shift+C",
+  copySessionId: "CmdOrCtrl+Alt+C",
+  copyDeeplink: "CmdOrCtrl+Alt+L",
+  toggleSidebar: "CmdOrCtrl+B",
+  // Alt shortcut mirrors VS Code/Cursor terminal while keeping labels on Cmd/Ctrl+J.
+  toggleTerminal: "CmdOrCtrl+J",
+  toggleDiffPanel: "CmdOrCtrl+Alt+B",
+  toggleTraceRecording: "CmdOrCtrl+Shift+S",
+  // Use Ctrl+M to avoid Cmd+M (minimize) on macOS.
+  dictation: "Ctrl+M",
+  navigateBack: "CmdOrCtrl+[",
+  navigateForward: "CmdOrCtrl+]",
+  previousThread: "CmdOrCtrl+Shift+[",
+  nextThread: "CmdOrCtrl+Shift+]",
+  thread1: "CmdOrCtrl+1",
+  thread2: "CmdOrCtrl+2",
+  thread3: "CmdOrCtrl+3",
+  thread4: "CmdOrCtrl+4",
+  thread5: "CmdOrCtrl+5",
+  thread6: "CmdOrCtrl+6",
+  thread7: "CmdOrCtrl+7",
+  thread8: "CmdOrCtrl+8",
+  thread9: "CmdOrCtrl+9",
+} as const;
+
+export type ElectronMenuAcceleratorId = keyof typeof electronMenuAccelerators;
