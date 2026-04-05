@@ -63,7 +63,7 @@ export default defineConfig({
   define: {
     __WINDOW_TYPE__: JSON.stringify('standard')
   },
-  build: {
+  build: { target: "esnext",
     rollupOptions: {
       external: (id) => {
         if (id.startsWith('.') || id.startsWith('/') || id.startsWith('\0') || id.startsWith('@/')) {

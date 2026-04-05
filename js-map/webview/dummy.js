@@ -1,1 +1,28 @@
+export const coerceServiceTier = () => 'free';
+export const applyWorktreeShellEnvironmentConfig = () => {};
+export const FileDiff = () => null;
+export const remarkMath = () => {};
+export const FileTree = () => null;
+export const useEnterBehavior = () => ({ behavior: 'enter' });
+export const setQueuedFollowUpsCache = () => {};
+export const addTransactionListener = () => {};
+export const createPromptEditorController = () => ({});
+export const RichTextInput = () => null;
+export const SkillMentionAutocompleteOverlay = () => null;
+export const useSkillMentionAutocomplete = () => ({});
+export const useWorkerPool = () => ({});
+export const parsePatchFiles = () => [];
+export const getOutputDiffTexts = () => [];
+export const registerCustomTheme = () => {};
+export const WorkerPoolContextProvider = ({children}) => children;
+export const useFocusVsContext = () => ({});
+export const expandImplicitParentDirectories = () => {};
+export const parseDiffFromFile = () => ({});
+export const Panel = ({children}) => children;
+export const PanelGroup = ({children}) => children;
+export const PanelResizeHandle = () => null;
+export const usePanelOpenState = () => [true, () => {}];
+export const SCROLL_TO_BOTTOM_EPSILON_PX = 10;
+export const QueryDevtoolsPanel = () => null;
+export class WorkerRpcClient {}
 export default {};

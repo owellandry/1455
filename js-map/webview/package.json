@@ -10,6 +10,7 @@
   "dependencies": {
     "@dnd-kit/core": "latest",
     "@dnd-kit/modifiers": "latest",
+    "@dnd-kit/sortable": "^10.0.0",
     "@dnd-kit/utilities": "latest",
     "@lottiefiles/dotlottie-react": "latest",
     "@number-flow/react": "latest",
@@ -77,6 +78,7 @@
     "remark-breaks": "latest",
     "remark-directive": "latest",
     "remark-gfm": "latest",
+    "rrule": "^2.8.1",
     "shiki": "^4.0.2",
     "shlex": "latest",
     "tailwind-styled-components": "latest",
