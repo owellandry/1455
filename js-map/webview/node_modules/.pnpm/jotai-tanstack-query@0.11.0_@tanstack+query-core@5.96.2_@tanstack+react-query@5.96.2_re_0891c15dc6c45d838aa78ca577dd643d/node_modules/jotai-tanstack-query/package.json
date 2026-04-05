@@ -1,0 +1,110 @@
+{
+  "name": "jotai-tanstack-query",
+  "description": "👻🌺",
+  "version": "0.11.0",
+  "type": "module",
+  "author": "Daishi Kato",
+  "contributors": [
+    "Thaddeus Jiang",
+    "Mohammad Bagher Abiat",
+    "Kali Charan Reddy Jonna"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jotaijs/jotai-tanstack-query.git"
+  },
+  "source": "./src/index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "module": "./dist/index.mjs",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "module": "./dist/react.js",
+      "import": "./dist/react.mjs",
+      "default": "./dist/react.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "jotai",
+    "react",
+    "tanstack/query",
+    "state management",
+    "data fetching"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@tanstack/query-core": "^5.83.0",
+    "@tanstack/react-query": "^5.83.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "@vitest/ui": "^3.2.4",
+    "bunchee": "^6.5.4",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "jotai": "^2.4.2",
+    "jsdom": "^25.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "peerDependencies": {
+    "@tanstack/query-core": "*",
+    "@tanstack/react-query": "*",
+    "jotai": ">=2.0.0",
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@tanstack/react-query": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "compile": "bunchee --sourcemap",
+    "test": "run-s eslint tsc-test vitest",
+    "eslint": "eslint --ext .js,.ts,.tsx .",
+    "vitest": "vitest run",
+    "test:dev": "vitest",
+    "tsc-test": "tsc --project . --noEmit",
+    "examples:01_query": "pnpm --filter ./examples/01_query run dev",
+    "examples:02_suspense": "pnpm --filter ./examples/02_suspense run dev",
+    "examples:03_infinite": "pnpm --filter ./examples/03_infinite run dev",
+    "examples:04_infinite_suspense": "pnpm --filter ./examples/04_infinite_suspense run dev",
+    "examples:05_mutation": "pnpm --filter ./examples/05_mutation run dev",
+    "examples:06_refetch": "pnpm --filter ./examples/06_refetch run dev",
+    "examples:07_queries": "pnpm --filter ./examples/07_queries run dev",
+    "examples:08_query_client_atom_provider": "pnpm --filter ./examples/08_query_client_atom_provider run dev",
+    "examples:09_error_boundary": "pnpm --filter ./examples/09_error_boundary run dev"
+  }
+}

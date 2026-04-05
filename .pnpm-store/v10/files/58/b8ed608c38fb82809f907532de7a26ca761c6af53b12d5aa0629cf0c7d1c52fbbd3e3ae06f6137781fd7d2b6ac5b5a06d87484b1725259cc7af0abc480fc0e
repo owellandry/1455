@@ -1,0 +1,1 @@
+{"version":3,"file":"withAtomEffect.d.ts","sourceRoot":"","sources":["../src/withAtomEffect.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,IAAI,EAAgB,MAAM,eAAe,CAAA;AAKvD,OAAO,KAAK,EAAE,MAAM,EAAqC,MAAM,cAAc,CAAA;AAI7E,wBAAgB,cAAc,CAAC,CAAC,SAAS,IAAI,CAAC,OAAO,CAAC,EACpD,UAAU,EAAE,CAAC,EACb,MAAM,EAAE,MAAM,GACb,CAAC,GAAG;IAAE,MAAM,EAAE,MAAM,CAAA;CAAE,CA2GxB"}
