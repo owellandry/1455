@@ -1,0 +1,7 @@
+export const QUERY_STALE_TIME = {
+  FIVE_SECONDS: 5_000,
+  THIRTY_SECONDS: 30_000,
+  ONE_MINUTE: 60_000,
+  FIVE_MINUTES: 5 * 60_000,
+  INFINITE: Infinity,
+} as const;
