@@ -1,0 +1,36 @@
+{
+  "name": "shlex",
+  "version": "3.0.0",
+  "description": "Node.js port of Python's shlex shell-like lexer",
+  "type": "module",
+  "main": "shlex.js",
+  "types": "shlex.d.ts",
+  "scripts": {
+    "test": "mocha",
+    "posttest": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgov/node-shlex.git"
+  },
+  "keywords": [
+    "shell",
+    "command-line",
+    "cli",
+    "lexer"
+  ],
+  "author": "Ryan Govostes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgov/node-shlex/issues"
+  },
+  "homepage": "https://github.com/rgov/node-shlex#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "chai": "^5.2.0",
+    "eslint": "^9.30.0",
+    "globals": "^16.2.0",
+    "mocha": "^10.2.0",
+    "typescript-eslint": "^8.35.0"
+  }
+}
