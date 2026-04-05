@@ -1,0 +1,2 @@
+import{H as e,pr as t}from"./vscode-api-CMwkvs9t.js";import{Dn as n}from"./app-server-manager-hooks-XL0eRatK.js";var r=n(`agent-mode`,`auto`),i=t(!1),a=n(`preferred-non-full-access-agent-mode`,null),o=n(`skip-full-access-confirm`,!1),s=n(`skip-thread-branch-mismatch-confirm`,!1),c=n(`composer-best-of-n`,1),l=n(`prompt-history`,[]),u=n(`composer-auto-context-enabled`,!0),d=n(e,null);n(`enter-behavior`,`enter`);var f=t(null),p=t({});export{p as a,a as c,s as d,u as i,l,c as n,i as o,f as r,d as s,r as t,o as u};
+//# sourceMappingURL=composer-atoms-CHFsvAG0.js.map
